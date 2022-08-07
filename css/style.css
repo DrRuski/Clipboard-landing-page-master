@@ -4,3 +4,22 @@
 body {
     margin: 0;
     font-family: "Bai Jamjuree", sans-serif;}
+
+.flex-y {
+    display: flex;
+    flex-direction: column;
+}
+.flex-x {
+    display: flex;
+}
+
+main {
+    width: 1440px;
+    align-self: center;
+}
+
+.landing-page {
+    align-items: center;
+}
+
+.bg-header-desktop {width: 100%; object-fit: cover;}
