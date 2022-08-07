@@ -23,3 +23,15 @@ main {
 }
 
 .bg-header-desktop {width: 100%; object-fit: cover;}
+
+
+
+@media only screen and (max-width:475px) {
+
+.download-btn-mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
