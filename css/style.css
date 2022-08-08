@@ -5,24 +5,30 @@ body {
     margin: 0;
     font-family: "Bai Jamjuree", sans-serif;}
 
+
+    
+/* Flexbox */    
 .flex-y {
     display: flex;
-    flex-direction: column;
-}
-.flex-x {
-    display: flex;
+    flex-direction: column;}
+
+.flex-x {display: flex;}
+
+
+
+
+
+
+
+
+.landing-section {
+    max-width: 1440px;
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
 }
 
-main {
-    width: 1440px;
-    align-self: center;
-}
-
-.landing-page {
-    align-items: center;
-}
-
-.bg-header-desktop {width: 100%; object-fit: cover;}
+.bg-header-desktop {width: 100%;}
 
 
 
