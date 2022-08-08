@@ -6,7 +6,7 @@ body {
     font-family: "Bai Jamjuree", sans-serif;}
 
 
-    
+
 /* Flexbox */    
 .flex-y {
     display: flex;
@@ -16,10 +16,12 @@ body {
 
 
 
+/* Header Background Image */
+.bg-header-desktop {width: 100%; object-fit: contain; position: fixed;}
 
 
 
-
+/* Main - Content */
 
 .landing-section {
     max-width: 1440px;
@@ -28,7 +30,7 @@ body {
     padding: 1rem;
 }
 
-.bg-header-desktop {width: 100%;}
+
 
 
 
