@@ -5,41 +5,68 @@ body {
     margin: 0;
     font-family: "Bai Jamjuree", sans-serif;}
 
-
-
-/* Flexbox */    
-.flex-y {
-    display: flex;
-    flex-direction: column;}
-
-.flex-x {display: flex;}
+img {width: 100%;}
 
 
 
 /* Header Background Image */
-.bg-header-desktop {width: 100%; object-fit: contain; position: fixed;}
+.bg-header-desktop {width: 100%; object-fit: cover; position: fixed;}
+
+/* Download Button */
+.download-btn a {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.7rem 2rem;
+    border-radius: 2.5rem;
+    color: #eee;}
+
+.download-ios {background-color: #26baa4;}
+.download-mac {background-color: #6173ff;}
 
 
+
+@media only screen and (min-width:476px) {
 
 /* Main - Content */
 
-.landing-section {
+.main-content-area {
     max-width: 1440px;
     margin: auto;
     width: 100%;
-    padding: 1rem;
+    padding: 1rem;}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 10rem;
+}
+
+.download-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.second-section {
+    display: flex;
 }
 
 
-
-
+}
 
 @media only screen and (max-width:475px) {
 
-.download-btn-mobile {
+
+
+
+.download-btn {
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column;}
 
 
 }
