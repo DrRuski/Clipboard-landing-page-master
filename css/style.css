@@ -100,7 +100,6 @@ p  {font-size: 1rem; line-height: 1.7rem;}
 
 
 /* Fourth Section */
-
 .fourth-section {
     display: flex;
     flex-direction: column;
@@ -120,6 +119,56 @@ p  {font-size: 1rem; line-height: 1.7rem;}
     align-items: center;
     text-align: center;
     max-width: 400px;}
+
+
+
+/* Brands Section */
+.brands {padding: 2.5rem 0rem;}
+.brands ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;}
+
+
+
+/* Fith Section */
+.fith-section {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 0rem;
+    gap: 2.5rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;}
+
+
+
+/* Footer */
+.footer {
+    padding: 2.5rem;
+    display: flex;
+    background-color: #ddd;
+    align-items: center;
+    gap: 10rem;}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem 2rem;}
+
+.footer-links a {text-decoration: none; color: #333;}
+.footer-links a:hover {text-decoration: underline;}
+.SoMe {display: flex; gap: 1.5rem;}
 
 
 
